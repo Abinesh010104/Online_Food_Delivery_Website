@@ -1,0 +1,142 @@
+
+*{
+    box-sizing: border-box;
+}
+.order-cont{
+    margin-top: 1vh;
+    width:100%; 
+            height:75vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+}
+.order-head{
+    margin-top: 2vh;
+    display: flex;
+    margin-left: 80px;
+            justify-content:flex-start;
+            align-items: center;
+            color: rgb(0,0, 0,0.4);
+}
+
+.order-div-1{
+            width:90%; 
+            height:75vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+
+}
+.order-div-1 .img-m1{
+height: 100%;
+width: 60%;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 3px;
+
+}
+.order-div-1 .img-m1 img, .order-div-1 .img-m2 img ,.order-div-1 .img-m22 img{
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+}
+.order-div-1 .img-m2{
+    height: 100%;
+width: 40%;
+padding: 3px;
+
+}
+
+.order-div-1 .img-m22 ,.order-div-1 .img-m21{
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+   
+}
+.order-div-1 .img-m221,.order-div-1 .img-m222,.order-div-1 .img-m211,.order-div-1 .img-m212{
+    width:100%;
+    padding: 3px;
+    height:100%
+}
+.main-order-content{
+    width: 100%;
+    display: flex;
+   margin: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+.order-content{
+    position: sticky;
+    width: 90%;
+}
+.order-content .div-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+.order-content .div-1 .span{
+    margin: 10px 40px;
+}
+.order-content .div-1 .rat-box-1{
+ border: 1px solid transparent;
+ background-color:rgb(233, 181, 1);;
+ color: #ffff;
+ margin-right: 5px;
+ padding: 4px;
+ border-radius: 5px;
+}
+.order-content .div-1 .rat-box-2{
+background-color:  rgb(36, 150, 63);
+border: 1px solid transparent;
+color: #ffff;
+ margin-right: 5px;
+ padding: 4px;
+ border-radius: 5px;
+}
+.order-content .div-1 p{
+    font-size:50px ;
+
+}
+.order-content .div-2{
+    color: rgb(0,0, 0,0.6);
+    margin: 5px;
+}
+.order-content .div-3{
+    color: rgb(0,0, 0,0.6);
+    margin: 5px;
+}
+.order-content .div-4 p{display: inline-block;
+    margin: 10px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 4px 6px;
+    transition: 0.3s;
+    margin: 5px;
+
+
+}.order-content .div-4 p:hover{
+    background-color: hsl(2, 73%, 52%);
+    border: 1px solid transparent;
+    color: white;
+    cursor: pointer;
+}
+.cart{
+    width: 100%;
+height: 80vh;
+}
+.order-div-1 img{
+    transition: 0.4s;
+}
+.order-div-1 img:hover{
+    transform: scale(1.1,1.1);
+}
+.order-div-1 .img-m1,.img-m211,.img-m212,.img-m221,.img-m222{
+    overflow: hidden;
+
+}
