@@ -18,7 +18,7 @@ Welcome to the Online Food Delivery Platform repository! This project is a web-b
 
 ## Screenshots
 
-![Homepage](image/screenshots/home.png)
+![Homepage](images/screenshots/home.png)
 *Screenshot of the homepage.*
 
 ![Login Page](screenshots/login.png)
