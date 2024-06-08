@@ -1,9 +1,4 @@
-
-
-
-
-
-
+<!DOCTYPE html>
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -51,7 +46,7 @@ if(isset($_SESSION['error'])){
         </div>
         <div class="back-page-2"  id="signup_nav">
             <div class="signup_nav">
-                <form action="page-2.php" method="post" name="fs" onsubmit="return validate_form()">
+                <form action="signupPage.php" method="post" name="fs" onsubmit="return validate_form()">
                     <i  id="close-icon" onclick="open_close_2()" class="fa-solid fa-xmark"></i>
                     <h2 class="input-element">sign up</h2><span class="al-error"><?php 
                     if(isset($_SESSION['error'])){
@@ -129,7 +124,7 @@ if(isset($_SESSION['error'])){
 
 <div class="card-1">
     <div class="icon"><i class="fa-solid fa-angle-down"></i></div>
-    <div class="img"><a href="#" ><img class="r1-imgs" src="images/kfc-card.avif "></a>
+    <div class="img"><a href="order-pg-1.php" target="_blank"><img class="r1-imgs" src="images/kfc-card.avif "></a>
     <div class="off"><p>37% OFF</p> <span>27 min</span></div></div>
 <div class="txt-content-1">
     <p style="font-size: 30px;">KFC</p><p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i>
@@ -139,7 +134,7 @@ if(isset($_SESSION['error'])){
 
 <div class="card-2">
     <div class="icon"><i class="fa-solid fa-angle-down"></i></div>
-    <div class="img"><a href="#"><img  class="r1-imgs" src="images/shawarmw-card.avif "></a>
+    <div class="img"><a href="order-pg-7.php" target="_blank"><img  class="r1-imgs" src="images/burger-king-card.avif "></a>
         <div class="off"><p>45% OFF</p> <span>30 min</span></div></div>
     <div class="txt-content-1">
         <p style="font-size: 30px;">Zawarma </p><p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i>
@@ -150,7 +145,7 @@ if(isset($_SESSION['error'])){
 
 <div class="card-3">
     <div class="icon"><i class="fa-solid fa-angle-down"></i></div>
-    <div class="img"><a href="#"><img class="r1-imgs" src="images/lassi-card.avif "></a>
+    <div class="img"><a href="order-pg-2.php" target="_blank"><img class="r1-imgs" src="images/lassi-card.avif "></a>
         <div class="off"><p>20% OFF</p> <span>35 min</span></div></div>
     <div class="txt-content-1">
         <p style="font-size: 30px;">Lassi shop</p><p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i>
@@ -164,7 +159,7 @@ if(isset($_SESSION['error'])){
 
 <div class="card-1">
     <div class="icon"><i class="fa-solid fa-angle-down"></i></div>
-    <div class="img"><a href="#"> <img class="r1-imgs" src="images/pizzahut-card.avif"></a>
+    <div class="img"><a href="order-pg-4.php" target="_blank"> <img class="r1-imgs" src="images/pizzahut-card.avif"></a>
         <div class="off"><p>30% OFF</p> <span>45 min</span></div></div>
 <div class="txt-content-1">
     <p style="font-size: 30px;">Pizza Hut</p><p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i>
@@ -174,7 +169,7 @@ if(isset($_SESSION['error'])){
 
 <div class="card-2">
     <div class="icon"><i class="fa-solid fa-angle-down"></i></div>
-    <div class="img"><a href="#"><img  class="r1-imgs" src="images/briyani-card.avif "></a>
+    <div class="img"><a href="order-pg-6.php" target="_blank"><img  class="r1-imgs" src="images/briyani-card.avif "></a>
         <div class="off"><p>40% OFF</p> <span>30 min</span></div></div>
     <div class="txt-content-1">
         <p style="font-size: 30px;">YaMohaideen</p><p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i>
@@ -185,7 +180,7 @@ if(isset($_SESSION['error'])){
 
 <div class="card-3">
     <div class="icon"><i class="fa-solid fa-angle-down"></i></div>
-    <div class="img"><a href="#"><img class="r1-imgs" src="images/choco-card.avif "></a>
+    <div class="img"><a href="order-pg-5.php" target="_blank"><img class="r1-imgs" src="images/choco-card.avif "></a>
         <div class="off"><p>42% OFF</p> <span>20 min</span></div></div>
     <div class="txt-content-1">
         <p style="font-size: 30px;">Choco Dream</p><p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i>
@@ -199,7 +194,7 @@ if(isset($_SESSION['error'])){
 
 <div class="card-1">
     <div class="icon"><i class="fa-solid fa-angle-down"></i></div>
-    <div class="img"><a href="#"><img class="r1-imgs" src="images/burger-king-card.avif "></a>
+    <div class="img"><a href="#"><img class="r1-imgs" src="images/shawarmw-card.avif "></a>
         <div class="off"><p>50% OFF</p> <span>33 min</span></div></div>
 <div class="txt-content-1">
     <p style="font-size: 30px;">Burg King</p><p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i>
@@ -319,9 +314,6 @@ if(isset($_SESSION['error'])){
         </div> </div>
         
         <script src="script_proj.js"></script>
-
     </body>
 </html>
 
-
-    
