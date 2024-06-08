@@ -18,9 +18,16 @@ Welcome to the Online Food Delivery Platform repository! This project is a web-b
 
 ## Screenshots
 
+###Home Page
 ![Homepage](images/screenshots/home.png)
-*Screenshot of the homepage.*
 
-![Login Page](screenshots/login.png)
-*Screenshot of the login page.*
+###Signup page
+![Signup Page](images/screenshots/signup.png)
+
+###Food cards
+![Signup Page](images/screenshots/FoodCards.png)
+
+### Add to cart
+![Signup Page](images/screenshots/addToCart.png)
+
 
