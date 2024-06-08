@@ -50,10 +50,10 @@ Welcome to the **Online Food Delivery Platform** repository! This project is a w
 If you have any questions, suggestions, or feedback, feel free to reach out to us. We're always open to hearing from the community!
 
 - **Project Maintainer**: Abinesh R
-- **Email**: [yourname@example.com](mailto:yourname@example.com)
-- **GitHub**: [yourusername](https://github.com/Abinesh010104)
+- **Email**: [Gmail](mailto:neshabi096@gmail.com)
+- **GitHub**: [Abinesh010104](https://github.com/Abinesh010104)
 
-For more information or to report issues, you can also visit the [Issues](https://github.com/yourusername/food-delivery-platform/issues) page on GitHub.
+For more information or to report issues, you can also visit the [Issues](https://github.com/Abinesh010104) page on GitHub.
 
 ---
 
